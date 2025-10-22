@@ -12,7 +12,7 @@ class LoadImagesFromDirectory:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "directory": ("STRING", {"default": "input_images"}),
+                "directory": ("STRING", {"default": "keyframes"}),
                 "reload_on_execute": ("BOOLEAN", {"default": False}),
                 "target_width": ("INT", {"default": 512, "min": 64, "max": MAX_RES, "step": 8}),
                 "target_height": ("INT", {"default": 512, "min": 64, "max": MAX_RES, "step": 8}),
