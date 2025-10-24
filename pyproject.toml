@@ -28,7 +28,7 @@ Documentation = "https://github.com/apenguin24/ComfyUI-WanKeyframing/wiki"
 "Bug Tracker" = "https://github.com/apenguin24/ComfyUI-WanKeyframing/issues"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "apenguin24"
 DisplayName = "ComfyUI-WanKeyframing"
 Icon = ""
 includes = [] 
